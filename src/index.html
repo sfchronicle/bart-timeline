@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+  <head>
+    <title><%= json.project.title %></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css?v=6">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="//cdn.jsdelivr.net/classlist/2014.01.31/classList.min.js"></script>
+    <%= t.include("partials/_head.html") %>
+    <%= t.include("partials/_analytics_hearst.html") %>
+  </head>
+  <script>  var HDN = HDN || {}  </script>
+
+  <%= t.include("partials/_nav.html") %>
+  <body>
+
+    <div style="width: 100%;">
+      <div class="lead-img">
+      <img style="width: 100%;" src="./assets/img/20130409.jpg">
+      <div class="hed">
+        <div class="banner-hed">TIMELINE</div>
+        <div class="text-shadow">BART: How the transit system was shaped into today’s fleet</div>
+        <div class="writer">By Michael Cabanatuan</div>
+      </div>
+      </div>
+    </div>
+
+      <p id="introtext">In its inception in 1947, BART was heralded as a leading model for the future of public transportation. However, as the years have passed, its services have deteriorated.
+      <br><br>
+      Read The Chronicle's look into how BART has changed over the decades.</p> 
+
+      <div id="stick-here"></div>
+
+      <div style="height: 60px"></div>
+<!--       <div id="timeline-placeholder"></div>
+      <div id="ticker"></div>
+ -->
+
+      <div id="timeline">
+        <div class="event" id="e0"></div>
+        <div class="event" id="e1"></div>
+        <div class="event" id="e2"></div>
+        <div class="event" id="e3"></div>
+        <div class="event" id="e4"></div>
+        <div class="event" id="e5"></div>
+        <div class="event" id="e6"></div>
+        <div class="event" id="e7"></div>
+        <div class="event" id="e8"></div>
+        <div class="event" id="e9"></div>
+        <div class="event" id="e10"></div>
+        <div class="event" id="e11"></div>
+        <div class="event" id="e12"></div>
+        <div class="event" id="e13"></div>
+        <div class="event" id="e14"></div>
+        <div class="event" id="e15"></div>
+        <div class="event" id="e16"></div>
+        <div class="event" id="e17"></div>
+        <div class="event" id="e18"></div>
+        <div class="event" id="e19"></div>
+        <div class="event" id="e20"></div>
+        <div class="event" id="e21"></div>
+        <div class="event" id="e22"></div>
+        <div class="event" id="e23"></div>
+        <div class="event" id="e24"></div>
+        <div class="event" id="e25"></div>
+        <div class="event" id="e26"></div>
+        <div class="event" id="e27"></div>
+        <div class="event" id="e28"></div>
+        <div class="event" id="e29"></div>
+        <div class="event" id="e30"></div>
+        <div class="event" id="e31"></div>
+        <div class="event" id="e32"></div>
+        <div class="event" id="e33"></div>
+
+        <div class="next">
+          <a href="http://www.sfchronicle.com/news/article/Summer-of-the-Women-How-1996-Olympics-8636042.php" target="_blank"><div id="return">READ THE STORY</div></a>
+        </div>
+
+        <div class="credit">Benjamin Din &bull; <a href="mailto:benjamin.din@gmail.com">bdin@sfchronicle.com</a> &bull; <a href="http://twitter.com/benjamindin" target="_blank">@benjamindin</a> </div>
+      </div>
+
+    <script>
+      var timelineBart = <%= JSON.stringify(csv.timeline_bart) %>;
+    </script>
+
+    <%= t.include("partials/_footer.html") %>
+
+    <script src="app.js" async></script>
+    <script src="http://projects.sfchronicle.com/shared/js/responsive-child.js"></script>
+    <%= t.include("partials/_helloSFC.html") %>
+
+  </body>
+</html>

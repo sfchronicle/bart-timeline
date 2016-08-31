@@ -1,0 +1,47 @@
+date,event,fake-position,position,id,y,t,image,caption,credit,,,,,,,,,,,,,,,,,,
+January 1947, Joint Army-Navy report recommends a transit tube beneath San Francisco Bay to deal with growing traffic congestion,0.001216545,0.121654501,e0,y-0,t-0,,,,,,,,,,,,1,,1947,,1,1,1,,1,0.001216545
+January 1956, Comprehensive Plan for Regional Rapid Transit calls for expansive five-county rapid rail system,0.118004866,11.80048662,e1,y-1,t-1,./assets/img/19560106.jpg,,,,,,,,,,,1,,1956,,96,97,97,,97,0.118004866
+June 1957, California Legislature approves creation of five-county Bay Area Transit District,0.138686131,13.86861314,e2,y-2,t-2,,,,,,,,,,,,6,,1957,,108,114,114,,114,0.138686131
+November 1962, Voters in three-county Bay Area Rapid Transit District approve $792 million general obligation bond,0.217761557,21.77615572,e3,y-3,t-3,./assets/img/196211.jpg,,,,,,,,,,,11,,1962,,168,179,179,,179,0.217761557
+June 1964, President Lyndon B. Johnson presides over official start of construction in Concord,0.240875912,24.08759124,e4,y-4,t-4,./assets/img/19640619b.jpg,,,,,,,,,,,6,,1964,,192,198,198,,198,0.240875912
+January 1966, Construction begins in Oakland subway,0.263990268,26.39902676,e5,y-5,t-5,,,,,,,,,,,,1,,1966,,216,217,217,,217,0.263990268
+July 1967, Construction begins on Market Street subway in San Francisco,0.285888078,28.58880779,e6,y-6,t-6,,,,,,,,,,,,7,,1967,,228,235,235,,235,0.285888078
+November 1971, Delivery of first BART car for passenger service,0.349148418,34.91484185,e7,y-7,t-7,,,,,,,,,,,,11,,1971,,276,287,287,,287,0.349148418
+"Sept. 11, 1972", BART begins service between Fremont and Oakland,0.361759935,36.17599351,e8,y-8,t-8,./assets/img/19720912.jpg,,,,,,,,,,,9,11,1972,,288,297,297.3666667,,297.3666667,0.361759935
+"Sept. 27, 1972", President Richard Nixon rides BART,0.362408759,36.24087591,e9,y-9,t-9,./assets/img/19720927.jpg,,,,,,,,,,,9,27,1972,,288,297,297.9,,297.9,0.362408759
+May 1973, Concord line opens,0.371046229,37.10462287,e10,y-10,t-10,,,,,,,,,,,,5,,1973,,300,305,305,,305,0.371046229
+July 1973, Strike stops trains for five weeks,0.373479319,37.34793,e11,y-11,t-11,,,,,,,,,,,,7,,1973,,300,307,307,,307,0.373479319
+August 1973, First test train runs through Transbay Tube,0.374695864,37.46958637,e12,y-12,t-12,,,,,,,,,,,,8,,1973,,300,308,308,,308,0.374695864
+November 1973, Service between Montgomery and Daly City stations starts,0.378345499,37.83454988,e13,y-13,t-13,,,,,,,,,,,,11,,1973,,300,311,311,,311,0.378345499
+September 1974, Transbay Tube service begins,0.390510949,39.05109489,e14,y-14,t-14,./assets/img/19740917.jpg,,,,,,,,,,,9,,1974,,312,321,321,,321,0.390510949
+January 1976, BART begins night service,0.409975669,40.99756691,e15,y-15,t-15,,,,,,,,,,,,1,,1976,,336,337,337,,337,0.409975669
+May 1976, Embarcadero Station opens,0.414841849,41.48418491,e16,y-16,t-16,,,,,,,,,,,,5,,1976,,336,341,341,,341,0.414841849
+August 1977," BART police strike, supported by workers' unions, lasts two weeks",0.433090024,43.30900243,e17,y-17,t-17,,,,,,,,,,,,8,,1977,,348,356,356,,356,0.433090024
+August 1979, Lockout/strike by BART employees lasts 75 days,0.462287105,46.22871046,e18,y-18,t-18,,,,,,,,,,,,8,,1979,,372,380,380,,380,0.462287105
+October 1989, Loma Prieta earthquake causes Bay Bridge collapse and closure; BART runs 24 hours for the next month ,0.610705596,61.07055961,e19,y-19,t-19,,,,,,,,,,,,10,,1989,,492,502,502,,502,0.610705596
+October 1991, Ground broken for $2.6 billion new East Bay extensions to Dublin-Pleasanton and West Pittsburg (now Pittsburg-Bay Point),0.639902676,63.99026764,e20,y-20,t-20,,,,,,,,,,,,10,,1991,,516,526,526,,526,0.639902676
+September 1997, Strike stops BART service for eight days,0.726277372,72.62774,e21,y-21,t-21,,,,,,,,,,,,9,,1997,,588,597,597,,597,0.726277372
+December 1999, Last assessment to build BART appears on property tax bills,0.759124088,75.91240876,e22,y-22,t-22,,,,,,,,,,,,12,,1999,,612,624,624,,624,0.759124088
+June 2003, San Francisco International Airport extension opens,0.810218978,81.02189781,e23,y-23,t-23,,,,,,,,,,,,6,,2003,,660,666,666,,666,0.810218978
+November 2004," Voters pass Measure AA, $980 million bond to seismically strengthen BART",0.830900243,83.09002433,e24,y-24,t-24,,,,,,,,,,,,11,,2004,,672,683,683,,683,0.830900243
+October 2010," Groundbreaking for eBART, a diesel rail extension to Antioch",0.917274939,91.72749392,e25,y-25,t-25,,,,,,,,,,,,10,,2010,,744,754,754,,754,0.917274939
+May 2012, BART directors order 410 new redesigned rail cars,0.940389294,94.03892944,e26,y-26,t-26,,,,,,,,,,,,5,,2012,,768,773,773,,773,0.940389294
+October 2012," BART sets ridership record of 568,061 due to Giants' parade and Halloween",0.946472019,94.64720195,e27,y-27,t-27,,,,,,,,,,,,10,,2012,,768,778,778,,778,0.946472019
+July 2013, Strike by BART unions lasts four-and-a-half days ,0.957420925,95.74209246,e28,y-28,t-28,,,,,,,,,,,,7,,2013,,780,787,787,,787,0.957420925
+October 2013, Second BART strike ends with contract settlement after four days,0.96107056,96.10705596,e29,y-29,t-29,,,,,,,,,,,,10,,2013,,780,790,790,,790,0.96107056
+November 2013, BART directors order 365 more new rail cars,0.962287105,96.22871046,e30,y-30,t-30,,,,,,,,,,,,11,,2013,,780,791,791,,791,0.962287105
+November 2014," Oakland Airport Connector, an automated rail link to Oakland International Airport, opens",0.976885645,97.68856448,e31,y-31,t-31,,,,,,,,,,,,11,,2014,,792,803,803,,803,0.976885645
+April 2016," First car of BART's new, redesigned fleet arrives for testing",0.99756691,99.756691,e32,y-32,t-32,,,,,,,,,,,,4,,2016,,816,820,820,,820,0.99756691
+June 2016, Board of Directors puts $3.5 billion bond measure on November ballot,1,100,e33,y-33,t-33,,,,,,,,,,,,6,,2016,,816,822,822,,822,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
