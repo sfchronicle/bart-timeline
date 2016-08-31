@@ -35,93 +35,6 @@ for (var i = 0; i < timelineBart.length; i++) {
 	}
 }
 
-// // code for timeline
-
-// var xScale = d3.scaleLinear()
-//   .domain([1896,2015])
-//   .range([0,645]);
-
-// // setting dimensions for the svg
-// if (screen.width > 600) {
-//   var width = 460;
-//   var margin = {
-//     top: -10,
-//     right: 45,
-//     bottom: 20,
-//     left: 45
-//   };
-// } else if (screen.width <= 600 && screen.width > 480) {
-//   var width = 430;
-//   var margin = {
-//     top: -10,
-//     right: 25,
-//     bottom: 20,
-//     left: 25
-//   };
-// } else if (screen.width <= 480 && screen.width > 370) {
-//     var width = 320;
-//     var margin = {
-//       top: -10,
-//       right: 25,
-//       bottom: 20,
-//       left: 25
-//     };
-// } else if (screen.width <= 370) {
-//   var width = 280;
-//   var margin = {
-//     top: -10,
-//     right: 20,
-//     bottom: 20,
-//     left: 20
-//   };
-// }
-
-// var height = 50;
-
-// var xAxisGroup = d3.select("#ticker").append("svg")
-//     .attr("width",width + margin.left + margin.right)
-//     .attr("height",height + margin.top + margin.bottom)
-//     .append("g")
-//     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-// // x-axis scale
-// var x = d3.scaleLinear()
-//     .rangeRound([0,width]);
-
-// x.domain(d3.extent(timelineData, function(d) {
-//   return d.date;
-// }));
-
-// var xAxis = d3.axisTop()
-//   .scale(x)
-//   .tickFormat(d3.format(".0f"))
-//   .tickValues(["1896","1972","1974","1984","1991","1991","1995","1996","1996","1996","1999","2000","2012","2015"]
-//   )
-//   .tickSize(0)
-//   .tickPadding(15);
-
-// xAxisGroup.append("g")
-//     .attr("class", "axistop")
-//     .attr("transform", "translate(0," + height + ")")
-//     .call(xAxis);
-
-// var axistop = xAxisGroup.selectAll(".axistop");
-
-// var ticks = axistop.selectAll(".tick")
-
-// ticks.selectAll("line").remove();
-// ticks.each(function() {
-//   d3.select(this)
-//     .append("circle")
-//       .attr("r", 5)
-//       .attr("fill","white")
-//       .style("stroke","slategray")
-//       .style("stroke-width","1px");
-//   d3.selectAll("circle")
-//     .attr("id", function(d,i) {return "t-" + i})
-//   d3.selectAll("text")
-//     .attr("id", function(d,i) {return "y-" + i})
-// });
 
 // sticky timeline
 
@@ -186,46 +99,46 @@ function activate() {
 window.onscroll = function() {activate()};
 
 // Twitter Intent
-// (function() {
-//   if (window.__twitterIntentHandler) return;
-//   var intentRegex = /twitter\.com\/intent\/(\w+)/,
-//       windowOptions = 'scrollbars=yes,resizable=yes,toolbar=no,location=yes',
-//       width = 550,
-//       height = 420,
-//       winHeight = screen.height,
-//       winWidth = screen.width;
+(function() {
+  if (window.__twitterIntentHandler) return;
+  var intentRegex = /twitter\.com\/intent\/(\w+)/,
+      windowOptions = 'scrollbars=yes,resizable=yes,toolbar=no,location=yes',
+      width = 550,
+      height = 420,
+      winHeight = screen.height,
+      winWidth = screen.width;
 
-//   function handleIntent(e) {
-//     e = e || window.event;
-//     var target = e.target || e.srcElement,
-//         m, left, top;
+  function handleIntent(e) {
+    e = e || window.event;
+    var target = e.target || e.srcElement,
+        m, left, top;
 
-//     while (target && target.nodeName.toLowerCase() !== 'a') {
-//       target = target.parentNode;
-//     }
+    while (target && target.nodeName.toLowerCase() !== 'a') {
+      target = target.parentNode;
+    }
 
-//     if (target && target.nodeName.toLowerCase() === 'a' && target.href) {
-//       m = target.href.match(intentRegex);
-//       if (m) {
-//         left = Math.round((winWidth / 2) - (width / 2));
-//         top = 0;
+    if (target && target.nodeName.toLowerCase() === 'a' && target.href) {
+      m = target.href.match(intentRegex);
+      if (m) {
+        left = Math.round((winWidth / 2) - (width / 2));
+        top = 0;
 
-//         if (winHeight > height) {
-//           top = Math.round((winHeight / 2) - (height / 2));
-//         }
+        if (winHeight > height) {
+          top = Math.round((winHeight / 2) - (height / 2));
+        }
 
-//         window.open(target.href, 'intent', windowOptions + ',width=' + width +
-//                                            ',height=' + height + ',left=' + left + ',top=' + top);
-//         e.returnValue = false;
-//         e.preventDefault && e.preventDefault();
-//       }
-//     }
-//   }
+        window.open(target.href, 'intent', windowOptions + ',width=' + width +
+                                           ',height=' + height + ',left=' + left + ',top=' + top);
+        e.returnValue = false;
+        e.preventDefault && e.preventDefault();
+      }
+    }
+  }
 
-//   if (document.addEventListener) {
-//     document.addEventListener('click', handleIntent, false);
-//   } else if (document.attachEvent) {
-//     document.attachEvent('onclick', handleIntent);
-//   }
-//   window.__twitterIntentHandler = true;
-// }());
+  if (document.addEventListener) {
+    document.addEventListener('click', handleIntent, false);
+  } else if (document.attachEvent) {
+    document.attachEvent('onclick', handleIntent);
+  }
+  window.__twitterIntentHandler = true;
+}());
