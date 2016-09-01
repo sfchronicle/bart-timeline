@@ -48,7 +48,7 @@ function activate() {
   var window_top = document.body.scrollTop;
   var div_top = document.getElementById('stick-here').getBoundingClientRect().top + window_top;
   var timeline = document.getElementById('ticker');
-  var div_bottom = document.getElementById('e33').getBoundingClientRect().bottom + window_top - 30;
+  var div_bottom = document.getElementById('e34').getBoundingClientRect().bottom + window_top - 30;
 //  var timeline_ph = document.getElementById('timeline-placeholder');
 
   if ((window_top > div_top) && (window_top < div_bottom)) {
