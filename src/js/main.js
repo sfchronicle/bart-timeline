@@ -48,9 +48,10 @@ function activate() {
   var window_top = document.body.scrollTop;
   var div_top = document.getElementById('stick-here').getBoundingClientRect().top + window_top;
   var timeline = document.getElementById('ticker');
+  var div_bottom = document.getElementById('e33').getBoundingClientRect().bottom + window_top - 30;
 //  var timeline_ph = document.getElementById('timeline-placeholder');
 
-  if (window_top > div_top) {
+  if ((window_top > div_top) && (window_top < div_bottom)) {
       timeline.style.display = "block";
       timeline.classList.add('sticky');
       // timeline_ph.style.display = 'block'; // puts in a placeholder for where sticky used to be for smooth scrolling

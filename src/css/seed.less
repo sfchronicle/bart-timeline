@@ -254,7 +254,7 @@ li {
 // photo styles ----------------------------------------
 
 .caption {
-  text-align: left;
+  text-align: right;
   font-family: @body;
   font-size: 14px;
   margin-top: 5px;
@@ -502,23 +502,19 @@ li {
   }
 }
 
-#ratings>.caption {
-  margin-bottom: 20px;
-}
-
 .next {
-  margin-top: 30px;
-  width: 30%;
-  margin-bottom: 30px;
-  float: right;
+  margin: 30px auto;
+  width: 100%;
+  max-width: 500px;
+  background-color: @gray-blue;
 
   a {
-    color: @gray-blue;
+    color: white;
   }
 }
 
 .next:hover {
-  background: @gray-blue;
+  background: darken(@gray-blue, 10%);
 
   a {
     color: white;
@@ -527,10 +523,9 @@ li {
 
 #return {
   text-align: center;
-  color: @gray-blue;
+  color: white;
   font-family: AntennaRegular;
   padding: 5px;
-  border: 2px solid @gray-blue;
 }
 
 #return:hover {
@@ -699,4 +694,60 @@ footer {
     display: none;
    }
 
+}
+
+.caption {
+  text-align: right;
+  padding-right: 5px;
+  width: 90%;
+
+  @media @tablet {
+    width: 100%;
+  }
+}
+
+.divider {
+  border-bottom: 1px lightgray solid;
+  clear: both;
+}
+
+.dont-miss {
+  .display-flex;
+  .flex-wrap(wrap);
+  margin-bottom: 20px;
+  font-size: 17px;
+  font-family: @block-graphics;
+  max-width: 1000px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  @media @mobile {
+    margin-bottom: 40px;
+  }
+
+  .story {
+    .flex(0 0 25%);
+
+    @media screen and (max-width: 600px) {
+      .flex(1 1 50%)
+    }
+  }
+  .padded {
+    padding: 10px;
+  }
+  .small {
+    font-weight: bold;
+    font-size: 15px;
+  }
+  img {
+    width: 100%;
+  }
+  // a {
+  //   color: @dark-gray;
+  //   transition: color .1s linear;
+  //
+  //   &:hover {
+  //     color: @df-blue;
+  //   }
+  // }
 }
