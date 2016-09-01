@@ -1,10 +1,10 @@
 {
-  "title": "BART TITLE",
-  "description": "BART description",
-  "url": "http://projects.sfchronicle.com/2016/BART-SLUG/",
+  "title": "BART's history: Futuristic to falling apart",
+  "description": "Scroll through this interactive timeline to see BART's progression from a futuristic marvel to a crumbling, 44-year-old system.",
+  "url": "http://projects.sfchronicle.com/2016/bart-timeline/",
   "tags": [],
   "image": "assets/photos/social/social.jpg",
-  "slug": "BART-SLUG",
+  "slug": "bart-timeline",
   "sheets": [],
   "production": false,
   "embedded": true
